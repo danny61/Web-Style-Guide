@@ -7,17 +7,11 @@
   }
   
   .row {
-    display: flex;
-    flex-direction: column;
-    padding: 1em 10px;
+    @include flexrow;
   }
   
   [class^=col] {
-    margin-top: 10px;
-    flex-basis: 100%;
-    min-height: 25px;
-    padding: 10px;
-    border-radius: 5px;
+    @include col;
   }
   
   .theme.col-1 {
