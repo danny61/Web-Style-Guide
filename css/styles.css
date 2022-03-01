@@ -419,7 +419,7 @@ a {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid #51ddfc;
   border-radius: 5px;
 }
 
@@ -437,27 +437,27 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
+/* line 9, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
+/* line 13, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
+/* line 17, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
+/* line 21, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
+/* line 25, ../../../../Code/treehouse-project-4/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -480,7 +480,7 @@ a {
   border-bottom: 5px solid #58e1c1;
 }
 
-/* line 18, ../../../../Code/treehouse-project-4/scss/component/_form.scss */
+/* line 13, ../../../../Code/treehouse-project-4/scss/component/_form.scss */
 .hidden {
   position: absolute;
   left: -10000px;
@@ -505,7 +505,7 @@ a {
   padding: 1em 10px;
 }
 
-/* line 15, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 13, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -514,67 +514,67 @@ a {
   border-radius: 5px;
 }
 
-/* line 23, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 17, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 21, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 31, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 25, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 35, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 29, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 39, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 33, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 43, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 37, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 47, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 41, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 51, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 45, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 55, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 49, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 59, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 53, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 63, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 57, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 67, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 61, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 71, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
+/* line 65, ../../../../Code/treehouse-project-4/scss/component/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -590,7 +590,7 @@ a {
   flex-direction: column;
 }
 
-/* line 12, ../../../../Code/treehouse-project-4/scss/component/_navigation.scss */
+/* line 9, ../../../../Code/treehouse-project-4/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -600,118 +600,140 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../../../../Code/treehouse-project-4/scss/component/_navigation.scss */
+/* line 13, ../../../../Code/treehouse-project-4/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
 
-/* line 1, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-:root {
-  --frame-color: #ccc;
-  --universal-color: #777;
-  --primary-head: #58e1c1;
-  --button-color: #fff;
-  --background-default: #51ddfc;
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+/* line 4, ../../../../Code/treehouse-project-4/scss/component/_img.scss */
+.img-avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* line 13, ../../../../Code/treehouse-project-4/scss/component/_img.scss */
+.img-frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+/* line 23, ../../../../Code/treehouse-project-4/scss/component/_img.scss */
+.img-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 768px) {
-  /* line 8, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .container {
+  /* line 3, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .container {
     max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 15, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .centered {
+  /* line 10, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 21, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .row {
+  /* line 16, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .row {
     flex-direction: row;
   }
-  /* line 25, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root [class^=col] {
+  /* line 20, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 32, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root [class^=col] + [class^=col] {
+  /* line 27, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 36, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-1 {
+  /* line 31, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 40, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-2 {
+  /* line 35, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 44, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-3 {
+  /* line 39, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 48, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-4 {
+  /* line 43, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 52, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-5 {
+  /* line 47, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 56, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-6 {
+  /* line 51, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 60, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-7 {
+  /* line 55, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 64, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-8 {
+  /* line 59, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 68, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-9 {
+  /* line 63, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 72, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-10 {
+  /* line 67, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 76, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-11 {
+  /* line 71, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 80, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .col-12 {
+  /* line 75, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .col-12 {
     flex-basis: 100%;
   }
-  /* line 84, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .nav {
+  /* line 79, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
   }
-  /* line 90, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .nav-link {
+  /* line 85, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .nav-link {
     flex-basis: 100px;
   }
-  /* line 94, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .btn {
+  /* line 89, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .btn {
     padding: 10px 30px;
   }
-  /* line 98, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .btn + .btn {
+  /* line 93, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .btn + .btn {
     margin-left: 10px;
   }
-  /* line 102, ../../../../Code/treehouse-project-4/scss/utilities/_variables.scss */
-  :root .logo {
+  /* line 97, ../../../../Code/treehouse-project-4/scss/component/_mediaquery.scss */
+  .logo {
     margin-left: initial;
     margin-right: initial;
   }
