@@ -477,7 +477,7 @@ a {
   margin: 10px auto 0;
   border: none;
   padding: 10px;
-  border-bottom: 5px solid #58e1c1;
+  border-bottom: 5px solid #51ddfc;
 }
 
 /* line 13, ../../../../Code/treehouse-project-4/scss/component/_form.scss */
@@ -603,7 +603,7 @@ a {
 /* line 13, ../../../../Code/treehouse-project-4/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
-  background-color: #58e1c1;
+  background-color: #51ddfc;
 }
 
 /* ============================================= */
